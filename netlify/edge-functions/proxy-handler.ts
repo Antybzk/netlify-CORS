@@ -5,6 +5,7 @@ import type { Context } from "@netlify/edge-functions";
 const PROXY_CONFIG = {
   // API 服务器
   "/discord": "https://discord.com/api",
+  "/gigachat": "https://gigachat.devices.sberbank.ru",
   "/telegram": "https://api.telegram.org",
   "/openai": "https://api.openai.com",
   "/claude": "https://api.anthropic.com",
